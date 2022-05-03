@@ -30,6 +30,7 @@ list-style: none;
     font-family: fantasy;
 	text-transform: uppercase;
 }
+/*----------------------------------transiciones---------------------------------------------------------------- */
 nav li:hover, li :active {
 	background-color:  pink;
 	transition: 3s;
@@ -65,6 +66,7 @@ text-align: center;
 .div-imagenes:{
 	transition: all 3s;
 }
+/*----------------------------------transiciones---------------------------------------------------------------- */
 .caja:hover {
 	transform: translateY(10px);
 }
@@ -199,6 +201,7 @@ iframe {
 
 .grid-item h2 {
 	font-size: 15px;
+	text-align: center;
 	color: rgb(0, 0, 0);
 	width: 100%;
 	padding: 5px;
