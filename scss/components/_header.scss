@@ -1,0 +1,29 @@
+/*nesting o anidamiento*/
+@import "../base/variables";
+
+header {
+    background-image: $bg-color-nav;
+    nav {
+        div {
+            .tamaño-logo {
+                height: 5rem;
+            }
+        }
+        a {
+            padding: 2px 12px;
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
+            font-family: $font-family;
+            text-transform: uppercase;
+            @media (max-width: 450px){
+                font-family: 'Poppins', sans-serif;
+                        }
+            &:hover {
+                background-color:  rgb(255, 255, 255); 
+                border-radius: 3em;
+                transition: 3s;            
+          }
+           }
+    }
+ }
