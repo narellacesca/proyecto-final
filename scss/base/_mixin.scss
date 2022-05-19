@@ -1,0 +1,9 @@
+@mixin text ($size, $align){
+    font-size: $size;
+    text-align: $align;
+}
+@mixin grid ($columns, $rows){
+    grid-column-start: $columns;
+    grid-row-start: $rows;
+
+}

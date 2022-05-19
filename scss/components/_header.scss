@@ -1,5 +1,7 @@
 /*nesting o anidamiento*/
 @import "../base/variables";
+@import "../base/mapas";
+
 
 header {
     background-image: $bg-color-nav;
@@ -10,12 +12,12 @@ header {
             }
         }
         a {
-            padding: 2px 12px;
-            text-decoration: none;
-            color: black;
-            font-size: 1rem;
+            padding: map-get($nav-list, padding-list);
+            text-decoration: map-get($nav-list, decoration-list);
+            color: map-get($nav-list, color-text);
+            font-size: map-get($nav-list, font-size-list);
             font-family: $font-family;
-            text-transform: uppercase;
+            text-transform: map-get($nav-list, transform-list);
             @media (max-width: 450px){
                 font-family: 'Poppins', sans-serif;
                         }

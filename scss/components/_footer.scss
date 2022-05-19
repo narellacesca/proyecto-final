@@ -2,7 +2,7 @@
 footer {
     width: 100%;
 	color: black;
-    background-color: rgb(255, 215, 244);
+    background-color: $bg-color-footer;
     .grid-container-2 {
         width: 100%;
         max-width: 1200px;
@@ -13,25 +13,23 @@ footer {
         grid-row: 5px;
 
         .redes {
-            display: flex;
-            justify-content: center;
+            @extend %flex;
             grid-column-start: 1;
 
          img {
             display: flex;
             padding: 5px;
+            height:50px;
          }
         }
         .locales {
-           grid-column-start: 2;
-           grid-row-start: 1;
+           @include grid (2,1);
         }
         .horarios {
             grid-column-start: 2;  
         }
         .newsletter {
-            grid-column-start: 3;
-            grid-row-start: 1; 
+            @include grid (3,1);
             .btn-2 {
 
                 font-size: 15px;

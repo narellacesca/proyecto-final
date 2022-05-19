@@ -1,0 +1,16 @@
+
+$nav-list:(
+    padding-list: 2px 12px,
+    decoration-list: none,
+    color-text: black,
+    font-size-list: 1rem,
+    transform-list: uppercase,
+);
+$productos-grid:(
+    height-contenedor: 100%,
+    width-contenedor: 100%,
+	display-grid: grid,
+	columnas: 1fr 1fr 1fr,
+	filas: 400px,
+	grid-row-productos: 60px 10px,   
+)

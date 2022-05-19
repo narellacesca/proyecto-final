@@ -1,7 +1,7 @@
 @import "../base/variables";
 .content-talles .container { 
     display: flex;
-	justify-content: center;
+    justify-content: center;
     & col{
         display: flex;
         }
@@ -9,7 +9,7 @@
                 height: 300px;
                 width: auto;  
             }
-       & h5 {
+       & h2 {
             	font-weight: bold;
         }
         }

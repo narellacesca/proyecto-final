@@ -1,0 +1,33 @@
+main {
+    .parrafo-cuenta {
+        font-family: $font-family;
+		font-style: oblique;
+		font-size: 200%;
+    }
+
+   form {
+	   display: flex;
+	   justify-content: center;
+	.cuenta {
+		text-align: center;
+		width: 300px;
+	}
+    .btn {
+		margin-top: 2%;
+		height: 40px;
+		width: 80px;
+		background-color: rgb(255, 216, 223);
+		background: linear-gradient(to bottom, white, pink);
+	}
+   }
+   form {
+    .btn {
+		color: black;
+		margin-top: 2%;
+		height: 40px;
+		width: 80px;
+		background-color: rgb(255, 216, 223);
+		background: linear-gradient(to bottom, white, pink);
+	}
+   }
+}

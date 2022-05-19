@@ -1,0 +1,83 @@
+@import "../base/variables";
+@import "../base/mapas";
+.main-content{
+    .item-1 {
+        @media (max-width: 450px){
+        font-family: 'Poppins', sans-serif;
+        }
+        .titulo-productos {
+            text-align: center;
+            font-style: oblique;
+            font-family: fantasy;
+        }
+    }
+    .grid-container {
+    height: map-get($productos-grid, height-contenedor);
+    width: map-get($productos-grid, width-contenedor);
+	display: map-get($productos-grid, display-grid);
+	grid-template-columns: map-get($productos-grid, columnas);
+	grid-auto-rows: map-get($productos-grid, filas);
+	grid-row: map-get($productos-grid, grid-row-productos);
+    @media (max-width: 450px){
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 330px;
+        grid-gap: 2px 2px;
+                }
+    @media (min-width:451px) and (max-width:950px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 320px;
+        grid-gap: 2px 2px; }
+        .grid-item {
+            display: flex;
+            justify-content: center;
+            position: relative;
+    @media (min-width:451px) and (max-width:950px){
+            color: black;
+            text-align: center;
+            font-size: 10px;}
+            img {
+                height: 380px;
+               @media (max-width: 450px){
+                height: 300px;}
+                
+                @media (min-width:451px) and (max-width:950px){	
+                height: 300px;
+                   }
+
+            }   
+            h2 {
+            @include text (12px, center);
+	        color: rgb(0, 0, 0);
+	        position: absolute;
+	        bottom: 0;
+            }
+            .item-2 {
+                @include grid (1,1);
+            }
+            .item-3 {
+                @include grid (2,1);
+            }
+            .item-4 {
+                @include grid (3,1);
+            }
+            .item-5 {
+                @include grid (1,2);
+            }
+            .item-6 {
+                @include grid (2,2);
+            }
+            .item-7{
+                @include grid (3,2);
+            }
+            .item-8{
+                @include grid (1,3);
+            }
+            .item-9 {
+                @include grid (2,3);
+            }
+        }
+          }
+
+}
