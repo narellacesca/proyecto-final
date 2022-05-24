@@ -1,16 +1,28 @@
 @import "../base/variables";
-.content-talles .container { 
-    display: flex;
-    justify-content: center;
-    & col{
-        display: flex;
+.content-talles{ 
+   text-align: center;
+  .descripcion-talles{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+  }
+  .ubicacion-card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .col{
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     .card-talles {
+       display: flex;
+     }
+    }
+    img {
+            height: 300px;
+            width: auto;  
         }
-        img {
-                height: 300px;
-                width: auto;  
-            }
-       & h2 {
-            	font-weight: bold;
-        }
+   h2 {
+            font-weight: bold;
+    }
+  }
         }
     

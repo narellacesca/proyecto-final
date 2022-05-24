@@ -1,8 +1,3 @@
-/*nesting o anidamiento*/
-@import "../base/variables";
-@import "../base/mapas";
-
-
 header {
     background-image: $bg-color-nav;
     nav {
@@ -11,6 +6,7 @@ header {
                 height: 5rem;
             }
         }
+        
         a {
             padding: map-get($nav-list, padding-list);
             text-decoration: map-get($nav-list, decoration-list);
@@ -24,7 +20,7 @@ header {
             &:hover {
                 background-color:  rgb(255, 255, 255); 
                 border-radius: 3em;
-                transition: 3s;            
+                transition: 1s;            
           }
            }
     }

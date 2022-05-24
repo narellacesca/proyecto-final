@@ -2,7 +2,11 @@ main {
     .parrafo-cuenta {
         font-family: $font-family;
 		font-style: oblique;
-		font-size: 200%;
+		font-size: 40px;
+		@media (min-width: 2800px) and (max-width:1200px){
+			font-size: 25px;
+			font-family:'Poppins', sans-serif;
+		}
     }
 
    form {
@@ -21,6 +25,7 @@ main {
 	}
    }
    form {
+	padding-bottom: 20px;
     .btn {
 		color: black;
 		margin-top: 2%;

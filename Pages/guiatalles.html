@@ -22,36 +22,62 @@
 
 <body>
 <!--HEADER-->
-    <header>
-      <div class="alert alert-light" role="alert">
-       <p class="text-center">
-        3 y 6 CUOTAS SIN INTERÉS CON VISA Y MASTERCARD + ENVÍOS GRATIS EN SUCURSALES ANDREANI<span>&#128293;&#129311;</span>
-       </p>
-      </div>
-     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img src="../Imagenes/logo-removebg-preview.png" class="tamaño-logo" alt="logo superchill"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-              <a class="nav-link" href="../Pages/micuenta.html">Mi cuenta</a>
-              <a class="nav-link" href="../Pages/productos.html">Productos</a>
-              <a class="nav-link active" href="../Pages/guiatalles.html" >Guia talles</a>
-              <a class="nav-link" href="../Pages/locales.html" >Locales</a>
-            </div>
-          </div>
+<header>
+  <div class="alert alert-light" role="alert">
+   <p class="text-center">
+    3 y 6 CUOTAS SIN INTERÉS CON VISA Y MASTERCARD + ENVÍOS GRATIS EN SUCURSALES ANDREANI<span>&#128293;&#129311;</span>
+   </p> 
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../Imagenes/logo-removebg-preview.png" class="tamaño-logo" alt="logo superchill"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                MI CUENTA
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../Pages/registrarse.html">CREAR CUENTA&#9889;</a></li>
+                <li><a class="dropdown-item" href="../Pages/micuenta.html">LOGIN&#9889;</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../Pages/guiatalles.html">TALLES</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
-  </header>
+      </div>
+    </nav>
+    </header>
   <!--MAIN-->
-  <main class="content-talles container">
-           <div class="container">
+  <main class="content-talles">
+    <div class="parrafo-cuenta">
+      <h1>TALLES MUY CHILL!&#9889;</h1>
+    </div>
+          <div class="descripcion-talles">
+            <p>
+             Nuestra comunidad promueve la libertad y la diversidad. <br>
+             Nuestras kinis van a adaptarse a vos para que puedas sentirte muy Chill con ella.
+            </p>
+          </div>
+           <div class="container ubicacion-card">
            <div class="row">
            <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card card-talles" style="width: 18rem;">
               <img src="../Imagenes/bombachas.jpg" class="card-img-top" alt="bombacha">
               <div class="card-body">
                 <h2 class="card-title">BOMBACHAS</h2>
@@ -66,7 +92,7 @@
             </div>
           </div>
           <div class="col">
-          <div class="card" style="width: 18rem;">
+          <div class="card card-talles" style="width: 18rem;">
             <img src="../Imagenes/corpiños.jpg" class="card-img-top" alt="corpiño">
             <div class="card-body">
               <h2 class="card-title">CORPIÑOS</h2>

@@ -1,5 +1,5 @@
-@import "../base/variables";
 footer {
+    padding-top: 50px;
     width: 100%;
 	color: black;
     background-color: $bg-color-footer;
@@ -41,6 +41,7 @@ footer {
 
    
 @media (max-width: 450px){
+padding-bottom: 10px;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;

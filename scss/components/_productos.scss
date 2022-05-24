@@ -1,6 +1,14 @@
-@import "../base/variables";
-@import "../base/mapas";
+
 .main-content{
+    .contenedor-filtro{
+        display: flex;
+        justify-content: flex-end;
+        .filtro {
+            display: flex;
+            padding-left: 15px;
+            padding-top: 15px;
+        }
+    }
     .item-1 {
         @media (max-width: 450px){
         font-family: 'Poppins', sans-serif;
