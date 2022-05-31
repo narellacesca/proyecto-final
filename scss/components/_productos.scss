@@ -10,13 +10,15 @@
         }
     }
     .item-1 {
-        @media (max-width: 450px){
-        font-family: 'Poppins', sans-serif;
-        }
+        font-family: $font-family;
+        @media (min-width: 280px) and (max-width:1000px) {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            font-size: 30px;
+    }
         .titulo-productos {
             text-align: center;
             font-style: oblique;
-            font-family: fantasy;
         }
     }
     .grid-container {

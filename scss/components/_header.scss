@@ -14,9 +14,10 @@ header {
             font-size: map-get($nav-list, font-size-list);
             font-family: $font-family;
             text-transform: map-get($nav-list, transform-list);
-            @media (max-width: 450px){
-                font-family: 'Poppins', sans-serif;
-                        }
+            @media (min-width: 280px) and (max-width:1000px) {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bolder;
+        }
             &:hover {
                 background-color:  rgb(255, 255, 255); 
                 border-radius: 3em;
