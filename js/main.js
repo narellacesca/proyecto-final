@@ -35,3 +35,29 @@ function comprar () {
     }
 }
 comprar();
+
+
+const Pagar = ["1-tarjeta de credito", "2-tarjeta de debito", "3-rapipago", "4-efectivo"]
+Pagar.pop ()
+for (let i=0; i< Pagar.length; i++) {
+
+    alert("como quiere pagar ?"+ Pagar [i]);
+}
+
+function PagarOpcion () {
+    PagarOpcion = prompt ("ingrese la opcion seleccionada")
+    if (PagarOpcion== 1) {
+        alert ("Pagas con tarjeta de crédito")
+    }
+    else if (PagarOpcion ==2) {
+       alert ("Pagas con tarjeta de debito")
+    }
+    else if (PagarOpcion ==3) {
+        alert ("Pagas por rapipago")
+     }
+     else {
+         alert ("la opcion no es valida")
+     }
+}
+PagarOpcion ()
+
