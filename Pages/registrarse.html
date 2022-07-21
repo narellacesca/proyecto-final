@@ -64,12 +64,12 @@
       </header>
 <main>
 <form>
-    <div class="cuenta">
+    <!--<div class="cuenta">
       <p class="parrafo-cuenta">CREAR CUENTA &#9889;</p>
       <div>
       <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Ingresa tu nombre</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="exampleInputEmail1" class="entradaInput form-label">Ingresa tu nombre</label>
+          <input type="email" class="form-control" id="exampleInputEmail3" aria-describedby="emailHelp">
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
       </div>
     <div class="mb-3">
@@ -85,42 +85,29 @@
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
-    <button type="submit" class="btn btn-primary">ENVIAR</button>
+   <button id="botonRegistro">ENVIAR</button>
   </form>
-</main>
- <!--<main class="main-content">
-          <form class="formulario">
-              <div class="cuenta">
-                  <p class="parrafo-cuenta">YA TENGO CUENTA</p>
-                  <div>
-                    <input type="email" placeholder="Escribe tu email" class="separacion-input">
-                  </div>
-                  <div>
-                    <input type="password" placeholder="Escribe tu contraseña" class="separacion-input">
-                  </div>
-                  <div>
-                    <input type="submit" value="ENVIAR" class="btn">
-                  </div>
-              </div>
-              <div class="cuenta">
+</main>-->
+<main class="main-content">
                   <p class="parrafo-cuenta">CREAR CUENTA</p>
                   <div>
-                    <input type="text" placeholder="Escribe tu nombre" class="separacion-input">
+                    <input id="inputName" type="text" placeholder="Escribe tu nombre" >
                   </div>
                   <div>
-                    <input type="email" placeholder="Escribe tu email" class="separacion-input">
+                    <input id="inputEmail" type="email" placeholder="Escribe tu email"  >
                   </div>
                   <div>
-                    <input type="password"placeholder="Escribe tu contraseña" class="separacion-input">
+                    <input id="inputPasword"type="password"placeholder="Escribe tu contraseña" >
                   </div>
                   <div>
-                    <input type="password"placeholder="Repetí tu contraseña" class="separacion-input">
+                    <input id="repeatPasword" type="password"placeholder="Repetí tu contraseña">
                   </div>
                   <div>
-                    <input type="submit" value="ENVIAR" class="btn">
+                    <button id="botonRegistro">ENVIAR</button>
                   </div>
               </div>
-          </form>-->
+          </form>
+  </main>        
   <footer>
     <div>
     <div class="grid-container-2">
@@ -153,6 +140,7 @@
     </div>
   </div>
  </footer>
+ <script src="../js/main.js"></script>
  <!--SCRIPT DE BOOTSTRAP-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>

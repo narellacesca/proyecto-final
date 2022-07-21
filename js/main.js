@@ -6,13 +6,13 @@ if (nombreIngresado != "" ) {
     alert ("Hola " + nombreIngresado)
 } else {
     alert ("No ingresaste un nombre")
-}/*
+}
 function Comprar (parametro1, parametro2, parametro3) {
     prompt(parametro1+ parametro2+ parametro3)
  
 }
 Comprar ("que te gustaria comprar?", " 1-bikinis", " 2-ropa interior")
-*/
+
 let producto = '';
 let total = 0;
 
@@ -61,3 +61,14 @@ function PagarOpcion () {
 }
 PagarOpcion ()
 
+/*EVENTOS*/
+let entrada = document.getElementById ("inputName")
+entrada.addEventListener ('input', ()=>{
+    console.log (entrada.value)
+})
+function escribir () {
+    alert ("te registraste")
+}
+let boton2 = document.getElementById ("botonRegistro");
+
+boton2.onclick = () => { escribir ()}
